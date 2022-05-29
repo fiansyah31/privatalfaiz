@@ -321,7 +321,7 @@ body {
 /*Footer*/
 
 .footer {
-    background-color: #a72631;
+    background-color: #be313c;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -454,5 +454,18 @@ body {
     .footer-nav {
         margin-top: 20px;
         margin-left: -30px;
+    }
+    .section-hero {
+        padding-top: 120px;
+    }
+    .navbar-collapse {
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #ffffff;
+    }
+    .navbar-privatalfaiz .navbar-nav a {
+        font-weight: 500;
+        font-size: 16px;
+        color: #be313c !important;
     }
 }
