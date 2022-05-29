@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgba(29, 73, 169, 0.041);
+}
+
+.background-hero {
+    background: url(/img/school-5375259\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.background-secondary-hero {
+    background-image: url(/img/hero-backgroud-merah.png);
+    background-size: cover;
+    max-width: 100%;
+    opacity: 1;
+}
+
+.navbar-privatalfaiz {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.navbar-privatalfaiz .nav-privatalfaiz {
+    margin-left: auto;
+}
+
+.navbar-brand img {
+    width: 130px;
+}
+
+.navbar-privatalfaiz .navbar-nav a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FAFAFA !important;
+}
+
+.navbar-privatalfaiz .navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav a:hover {
+    color: #086288 !important;
+}
+
+.section-hero {
+    padding-top: 80px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.hero-description {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card-information-hero {
+    padding: 30px 10px 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 17px 29px -25px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+    margin-top: -60px;
+}
+
+.information-icon-item {
+    margin: auto;
+}
+
+.icon-information-hero {
+    align-self: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.icon-information-hero p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #4F4F4F;
+}
+
+
+/*section-benefit*/
+
+.section-benefit {
+    margin-top: 140px;
+}
+
+.section-benefit p {
+    color: #086288;
+}
+
+.section-benefit h3 {
+    color: #434343;
+}
+
+.text-small-content {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.text-info-content {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.image-benefit img {
+    width: 100%;
+}
+
+
+/*section-why-us*/
+
+.section-why-us {
+    padding: 20px 0px 20px 0px;
+    margin-top: 80px;
+    background: url(/img/background-content-why-me.png);
+    background-position: auto;
+    background-size: cover;
+}
+
+.why-us {
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.why-us h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    color: #531286;
+}
+
+.why-us p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #484848;
+}
+
+
+/*section-testimoni*/
+
+.section-testimoni {
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.div-testimoni h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #086288;
+}
+
+.card-testimoni {
+    margin-bottom: 25px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 19px -7px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.card-testimoni img {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.card-testimoni h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.card-testimoni p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+
+/*section-testimoni*/
+
+.section-artikel {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    background: url(/img/background-artikel.png);
+    background-position: auto;
+    background-size: cover;
+}
+
+.div-artikel h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #086288;
+}
+
+.card-artikel {
+    margin-bottom: 15px;
+    background: transparent;
+    border: none;
+}
+
+.card-artikel img {
+    border-radius: 15px;
+}
+
+.card-artikel h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 51px;
+    color: #252525;
+}
+
+.card-artikel p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    color: #434343;
+}
+
+.card-artikel .card-body {
+    margin-left: 20px;
+}
+
+
+/*section-why-us*/
+
+.section-konsultasi {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.content-konsultasi h3 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #252525;
+}
+
+.content-konsultasi p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #707070;
+}
+
+
+/*section-wujudkan*/
+
+.section-wujudkan {
+    background: url(/img/school-lengkung.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.background-merah {
+    background-image: url(/img/hero-backgroud-merah.png);
+    background-size: cover;
+    opacity: 2;
+}
+
+.div-wujudkan {
+    margin-top: 60px;
+}
+
+.div-wujudkan h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.image-wujudkan {
+    margin-top: 40px;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #a72631;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.info-footer p {
+    margin-top: 10px;
+    color: #ebebeb;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.info-footer a {
+    color: #ebebeb;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.info-footer a:hover {
+    color: #ebebeb;
+    text-decoration: underline;
+}
+
+.info-footer img {
+    width: 200px;
+}
+
+.footer-nav h5 {
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-nav li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.footer-nav li a {
+    color: #ebebeb;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.payment-footer h5 {
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.payment-item {
+    margin-top: 10px;
+    display: flex;
+}
+
+.payment-item img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/*Button*/
+
+.btn-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #157CA8;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn-primary {
+    background-color: #00A19D;
+    border: 1px solid #00A19D;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    transition: transform 500ms;
+}
+
+.btn-primary:hover {
+    background-color: #00A19D;
+    border: 1px solid #00A19D;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: #157CA8;
+    border-radius: 30px;
+    border: 1px solid #157CA8;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: transform 500ms;
+}
+
+.btn-secondary:hover {
+    background-color: #157CA8;
+    border: 1px solid #157CA8;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.navbar-privatalfaiz.scrolled {
+    padding: 10px 0px;
+    box-shadow: -1px 9px 14px -13px rgba(94, 94, 94, 0.54);
+    background-color: #ffffff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.navbar-nav .nav-color.scrolled {
+    color: #a72631 !important;
+}
+
+.navbar-nav .nav-color.scrolled:hover {
+    color: #235ca7 !important;
+}
+
+@media (max-width:767px) {
+    .footer-nav {
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+}
