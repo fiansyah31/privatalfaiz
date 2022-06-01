@@ -193,12 +193,9 @@ body {
 }
 
 .card-testimoni {
-    padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 25px;
     border: none;
-    padding-left: 10px;
-    padding-right: 10px;
     background: #FFFFFF;
     border-radius: 25px;
     transition: transform 500ms;
@@ -209,12 +206,8 @@ body {
 }
 
 .card-testimoni img {
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%;
     margin-bottom: 10px;
 }
 
@@ -359,6 +352,36 @@ body {
     padding-bottom: 40px;
 }
 
+.tiga {
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+.corak-footer {
+    z-index: 1;
+    position: relative;
+}
+
+.corak-footer .satu {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+}
+
+.corak-footer .dua {
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 33;
+}
+
 .info-footer p {
     margin-top: 10px;
     color: #595959;
@@ -419,6 +442,14 @@ body {
 
 
 /*Button*/
+
+.carousel-dark .carousel-control-next-icon {
+    filter: none;
+}
+
+.carousel-dark .carousel-control-prev-icon {
+    filter: none;
+}
 
 .btn-link {
     font-weight: 500;
@@ -533,5 +564,11 @@ body {
     }
     .payment-item {
         margin-top: 10px;
+    }
+}
+
+@media (max-width:545px) {
+    .tiga {
+        display: block;
     }
 }
