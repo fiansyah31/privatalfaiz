@@ -218,12 +218,12 @@ body {
     color: #000000;
 }
 
-.card-testimoni p {
+.card-testimoni .card-text {
     margin-top: -5px;
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
-    text-align: center;
+    text-align: left;
     color: #6e6e6e;
 }
 
