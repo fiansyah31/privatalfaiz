@@ -23,7 +23,10 @@
                 <div class="container">
                     <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg navbar-light navbar-privatalfaiz">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="/">
+                            <a class="navbar-brand brand-putih" href="/">
+                                <img src="/img/brand-putih.png" alt="brand">
+                            </a>
+                            <a class="navbar-brand brand-merah" href="/">
                                 <img src="/img/brand.png" alt="brand">
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,9 +88,9 @@
                                     </p>
                                 </div>
                                 <div class="icon-information-hero d-block text-center">
-                                    <img src="/img/icon-calender.svg" alt="icon">
+                                    <img src="/img/icon-instagram.svg" alt="icon">
                                     <p>
-                                        Berdiri sejak 2014
+                                        48.000 Followers
                                     </p>
                                 </div>
                                 <div class="icon-information-hero d-block text-center">
@@ -604,7 +607,7 @@
     <script>
         $(function() {
             $(document).scroll(function() {
-                var $nav = $(".navbar-privatalfaiz, .nav-color");
+                var $nav = $(".navbar-privatalfaiz, .nav-color, .brand-putih, .brand-merah");
 
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             });
