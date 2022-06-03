@@ -36,13 +36,14 @@ body {
 }
 
 .navbar-brand img {
-    width: 130px;
+    width: 200px;
 }
 
 .navbar-privatalfaiz .navbar-nav a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #FAFAFA !important;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    color: #ffffff !important;
 }
 
 .navbar-privatalfaiz .navbar-nav .nav-item {
