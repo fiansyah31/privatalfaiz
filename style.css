@@ -593,4 +593,7 @@ body {
     .tiga {
         display: block;
     }
+    .navbar-brand img {
+        width: 160px;
+    }
 }
