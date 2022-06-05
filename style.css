@@ -15,13 +15,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
     max-width: 100%;
-    background-repeat: no-repeat;
 }
 
 .background-secondary-hero {
     background-image: url(/img/hero-backgroud-merah.png);
-    background-size: cover;
     max-width: 100%;
+    background-size: cover;
     opacity: 1;
 }
 
