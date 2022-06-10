@@ -22,6 +22,9 @@ body {
     max-width: 100%;
     background-size: cover;
     opacity: 1;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 100%;
 }
 
 .navbar-privatalfaiz {
@@ -350,6 +353,9 @@ body {
 
 .image-wujudkan {
     margin-top: 40px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -585,6 +591,9 @@ body {
     }
     .payment-item {
         margin-top: 10px;
+    }
+    .image-wujudkan {
+        width: 100%;
     }
 }
 
