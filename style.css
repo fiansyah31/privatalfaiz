@@ -595,9 +595,15 @@ body {
     .image-wujudkan {
         width: 100%;
     }
+    .card-artikel .card-body {
+        margin-left: -8px;
+    }
 }
 
 @media (max-width:545px) {
+    .card-artikel .card-body {
+        margin-left: -8px;
+    }
     .tiga {
         display: block;
     }
