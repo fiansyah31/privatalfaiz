@@ -589,7 +589,7 @@ body {
 /*floating icon melayang*/
 
 .fab-wrapper {
-    z-index: 22;
+    z-index: 44;
     position: fixed;
     bottom: 3rem;
     right: 3rem;
