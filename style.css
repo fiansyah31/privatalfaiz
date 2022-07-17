@@ -56,7 +56,22 @@ body {
 .navbar-nav a:hover {
     color: #086288 !important;
 }
+.navbar-nav .dropdown-menu a {
+    padding: 10px;
+    font-size: 14px;
+    color: #4F4F4F !important;
+    font-weight: 400;
+   white-space: normal !important;
 
+}
+
+
+.dropdown-menu.show {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 567px;
+}
 .section-hero {
     padding-top: 80px;
 }
@@ -527,6 +542,14 @@ body {
 .brand-putih.scrolled {
     display: none;
 }
+.navbar-nav .dropdown-menu .dropdown-item{
+    color: #252525 !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+.navbar-nav .dropdown-menu .dropdown-item p{
+   margin-top: 5px;
+}
 
 .navbar-privatalfaiz.scrolled {
     padding: 10px 0px;
@@ -750,6 +773,9 @@ body {
     .card-artikel .card-body {
         margin-left: -8px;
     }
+    .dropdown-menu.show{
+        width: 100%;
+    }
 }
 
 @media (max-width:545px) {
@@ -762,4 +788,5 @@ body {
     .navbar-brand img {
         width: 160px;
     }
+    
 }
