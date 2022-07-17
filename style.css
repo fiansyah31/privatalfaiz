@@ -749,6 +749,7 @@ body {
         padding-top: 120px;
     }
     .navbar-collapse {
+        width: 100%;
         padding: 10px;
         border-radius: 15px;
         background-color: #ffffff;
@@ -787,6 +788,9 @@ body {
     }
     .navbar-brand img {
         width: 160px;
+    }
+    .dropdown-menu.show {
+        display: block;
     }
     
 }
