@@ -716,6 +716,20 @@ body {
     bottom: -1rem;
 }
 
+@media (max-width:991px) {
+    .navbar-collapse {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #ffffff;
+    }
+    .navbar-privatalfaiz .navbar-nav a {
+        font-weight: 500;
+        font-size: 16px;
+        color: #be313c !important;
+    }
+}
+
 @media (max-width:767px) {
     .section-benefit {
         background-position: auto;
